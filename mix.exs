@@ -34,10 +34,10 @@ defmodule Google.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.8"},
-      {:poison, "~> 1.5 or ~> 2.0 or ~> 3.0"},
+      {:httpoison, "~> 1.6"},
+      {:poison, "~> 1.5 or ~> 2.0 or ~> 3.0 or ~> 4.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:exvcr, "~> 0.8", only: :test},
+      {:exvcr, "~> 0.11", only: :test},
     ]
   end
 
